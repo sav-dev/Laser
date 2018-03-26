@@ -1,0 +1,24 @@
+  .byte $0B, $0B
+  .byte $08
+    .byte $02, $02, WALL_DIRECTION_RIGHT, $02
+    .byte $02, $03, WALL_DIRECTION_RIGHT, $02
+    .byte $02, $08, WALL_DIRECTION_RIGHT, $02
+    .byte $02, $09, WALL_DIRECTION_RIGHT, $02
+    .byte $08, $02, WALL_DIRECTION_RIGHT, $02
+    .byte $08, $03, WALL_DIRECTION_RIGHT, $02
+    .byte $08, $08, WALL_DIRECTION_RIGHT, $02
+    .byte $08, $09, WALL_DIRECTION_RIGHT, $02
+  .byte $09
+    .byte METATILE_ID_GUN_RIGHT, $01, $01
+    .byte METATILE_ID_CHECKPOINT, $01, $07
+    .byte METATILE_ID_TARGET, $01, $0A
+    .byte METATILE_ID_CHECKPOINT_2, $05, $04
+    .byte METATILE_ID_CHECKPOINT, $07, $07
+    .byte METATILE_ID_CHECKPOINT, $08, $05
+    .byte METATILE_ID_TARGET, $0A, $01
+    .byte METATILE_ID_CHECKPOINT_2, $0A, $04
+    .byte METATILE_ID_TARGET, $0A, $0A
+  .byte $03
+    .byte METATILE_ID_MIRROR_F, $03
+    .byte METATILE_ID_MIRROR_B, $02
+    .byte METATILE_ID_DISP_B, $03

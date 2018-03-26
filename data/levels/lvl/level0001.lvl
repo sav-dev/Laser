@@ -1,0 +1,6 @@
+GunRight Empty Empty MirrorB Empty Empty Wall 
+Wall Wall Empty Empty Empty Empty Empty 
+MirrorF Checkpoint1 Empty Empty Empty Empty MirrorB 
+MirrorB Empty Empty MirrorB Empty Checkpoint1 MirrorF 
+Empty Empty Empty Empty Empty Wall Wall 
+Wall Empty Empty MirrorB Empty Empty Target 
